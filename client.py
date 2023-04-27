@@ -6,5 +6,6 @@ PORT = 8989             # The same port as used by the server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
+    print('Conectando...')
     while True:
         s.send(input('Accion: ').encode(FORMAT))
