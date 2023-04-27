@@ -9,4 +9,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     while True:
         s.send(input('Accion: ').encode(FORMAT))
 
-#no fuk u
+#pruebas
